@@ -127,7 +127,7 @@
             android:inputType="textPassword"
             android:singleLine="true"
             android:textSize="@dimen/second_font"
-            android:hint="请输入登录密码"
+            android:hint="请输入6-20位登录密码"
             android:textColorHint="#999999"
             />
     </LinearLayout>

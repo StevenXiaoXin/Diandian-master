@@ -77,7 +77,7 @@
             android:inputType="textPassword"
             android:singleLine="true"
             android:textSize="@dimen/second_font"
-            android:hint="密码请设置为8-16位"
+            android:hint="密码请设置为6-20位"
             android:textColorHint="#999999"
             />
     </LinearLayout>
