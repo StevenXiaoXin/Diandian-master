@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/register_title"
+        layout="@layout/activity_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/register_input_bg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <TextView
+            android:id="@+id/register_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp"
+            android:textSize="@dimen/second_font"
+            android:text="手机号码："/>
+
+        <TextView
+            android:id="@+id/register_getcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/second_font"
+            android:text="获取验证码"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:textColor="#e9583b"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/register_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textColor="#333333"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:singleLine="true"
+            android:inputType="phone"
+            android:textSize="@dimen/second_font"
+            android:layout_toLeftOf="@id/register_getcode"
+            android:layout_toRightOf="@id/register_text1"
+            android:hint="请输入手机号"
+            android:textColorHint="#999999"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/register_input_bg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp"
+            android:textSize="@dimen/second_font"
+            android:text="验\u2000证\u2000码："/>
+
+        <EditText
+            android:id="@+id/register_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textColor="#333333"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:singleLine="true"
+            android:textSize="@dimen/second_font"
+            android:hint="请输入验证码"
+            android:textColorHint="#999999"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/register_input_bg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp"
+            android:textSize="@dimen/second_font"
+            android:text="密\u3000\u3000码："/>
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textColor="#333333"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="@dimen/second_font"
+            android:hint="请输入登录密码"
+            android:textColorHint="#999999"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/register_input_bg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp"
+            android:textSize="@dimen/second_font"
+            android:text="密\u3000\u3000码："/>
+
+        <EditText
+            android:id="@+id/register_repassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textColor="#333333"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="@dimen/second_font"
+            android:hint="请再次输入密码"
+            android:textColorHint="#999999"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/register_checkbox"
+            android:layout_width="wrap_content"
+            android:button="@null"
+            android:textSize="@dimen/thrid_font"
+            android:textColor="#333333"
+            android:paddingLeft="8dp"
+            android:checked="true"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/check"
+            android:text="我已阅读并接受"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/register_protocol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#d43b33"
+            android:textSize="@dimen/thrid_font"
+            android:text="\u2000《用户服务协议》\u2000"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textSize="@dimen/second_font"
+        android:textColor="@color/white"
+        android:text="注\u3000\u3000册"
+        android:background="@drawable/login_btn"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

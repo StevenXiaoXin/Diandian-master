@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/white"
+    android:padding="14dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_getfavore_image"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="8dp"
+        android:src="@mipmap/favore"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_getfavore_title"
+            android:layout_width="wrap_content"
+            android:textColor="#333333"
+            android:textSize="@dimen/second_font"
+            android:text="2远优惠卷"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_getfavore_content"
+            android:layout_width="wrap_content"
+            android:textColor="#999999"
+            android:layout_marginTop="6dp"
+            android:textSize="@dimen/second_font"
+            android:text="2远优惠卷"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_getfavore_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_btn"
+        android:paddingBottom="6dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="6dp"
+        android:text="领取"
+        android:textColor="@color/white"
+        android:textSize="@dimen/second_font" />
+
+</LinearLayout>

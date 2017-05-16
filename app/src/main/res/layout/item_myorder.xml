@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/item_myorder_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/second_font"
+            android:text="燕顺路。。。。"
+            android:drawableRight="@mipmap/myorder_gsp"
+            android:drawablePadding="10dp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/item_myorder_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/second_font"
+            android:textColor="#666666"
+            android:layout_marginTop="20dp"
+            android:text="2017kkkkkkkk"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_myorder_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/second_font"
+        android:textColor="@color/white"
+        android:text="续租"
+        android:gravity="center"
+        android:background="@drawable/login_btn"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/head_bg"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:clickable="true"
+        android:src="@drawable/back_btn"/>
+
+    <TextView
+        android:id="@+id/title_title"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_font"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/iv_personal_center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:visibility="gone"
+        android:src="@mipmap/title_person" />
+
+    <ImageView
+        android:id="@+id/title_get"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:visibility="gone"
+        android:src="@drawable/title_get_btn" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Diandian.iml" filepath="$PROJECT_DIR$/Diandian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Diandian-master.iml" filepath="$PROJECT_DIR$/Diandian-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagepicker/imagepicker.iml" filepath="$PROJECT_DIR$/imagepicker/imagepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagepicker/imagepicker.iml" filepath="$PROJECT_DIR$/imagepicker/imagepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeselector/timeselector.iml" filepath="$PROJECT_DIR$/timeselector/timeselector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeselector/timeselector.iml" filepath="$PROJECT_DIR$/timeselector/timeselector.iml" />
+    </modules>
+  </component>
+</project>

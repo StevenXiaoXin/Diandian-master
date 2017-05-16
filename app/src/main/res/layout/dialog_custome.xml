@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/update_dialog_bg"
+    android:layout_width="300dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_custome_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="@dimen/first_font"
+        android:text="提\u3000\u3000示"/>
+
+    <TextView
+        android:id="@+id/dialog_custome_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:paddingBottom="10dp"
+        android:textColor="#333333"
+        android:textSize="@dimen/second_font"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/update_bottom_bg"
+        >
+
+        <TextView
+            android:id="@+id/dialog_custome_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/second_font"
+            android:gravity="center"
+            android:paddingTop="12dp"
+            android:textColor="@color/head_bg"
+            android:paddingBottom="12dp"
+            android:layout_weight="1"
+            android:text="取消"/>
+
+        <TextView
+            android:id="@+id/dialog_custome_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/second_font"
+            android:gravity="center"
+            android:paddingTop="12dp"
+            android:textColor="@color/head_bg"
+            android:paddingBottom="12dp"
+            android:layout_weight="1"
+            android:text="确定"/>
+    </LinearLayout>
+
+</LinearLayout>

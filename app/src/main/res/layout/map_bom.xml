@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/map_bom_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/second_font"
+        android:textColor="#333333"
+        android:text="纳丹堡"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="12dp"
+        android:background="#cccccc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:textSize="@dimen/second_font"
+            android:text="空余车位："/>
+
+        <TextView
+            android:id="@+id/map_bom_freenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f34234"
+            android:textSize="@dimen/second_font"
+            android:layout_marginLeft="3dp"
+            android:text="23"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:layout_marginLeft="35dp"
+            android:textSize="@dimen/second_font"
+            android:text="距您里程："/>
+
+        <TextView
+            android:id="@+id/map_bom_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f34234"
+            android:textSize="@dimen/second_font"
+            android:layout_marginLeft="3dp"
+            android:text="12KM"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="12dp"
+        android:background="#cccccc"/>
+</LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/map_bom_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:paddingRight="10dp"
+        android:src="@mipmap/partlist_gsp"/>
+    </LinearLayout>
